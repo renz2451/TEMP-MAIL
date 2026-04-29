@@ -11,7 +11,7 @@
         sessionStorage.setItem('TEMP_MAIL_DEV_OVERRIDE', '1');
     }
     const devOverride = sessionStorage.getItem('TEMP_MAIL_DEV_OVERRIDE') === '1';
-    const ALLOWED_HOST = ['renz2451.github.io', '127.0.0.1'];
+    const ALLOWED_HOST = ['mehmetkahya0.github.io', '127.0.0.1'];
     if (!devOverride && !ALLOWED_HOST.includes(location.host) && !ALLOWED_HOST.includes(location.hostname)) {
         throw new Error('UNAUTHORIZED_HOST');
     }
@@ -36,14 +36,13 @@ const CONFIG = {
 
     // Available domains
     DOMAINS: [
-        'renz.com',
-        'renztxpro.net',
-        'renzmail.org',
-        'renzmailblock.com',
-        'lol.la',
-        'thehellmail.net',
-        'spam4.me',
-        'gmail.com'
+        'guerrillamail.com',
+        'guerrillamail.net',
+        'guerrillamail.org',
+        'guerrillamailblock.com',
+        'grr.la',
+        'pokemail.net',
+        'spam4.me'
     ],
 
     // System status
