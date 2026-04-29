@@ -35,7 +35,9 @@ const CONFIG = {
     REQUEST_TIMEOUT: 12000,
 
     // Available domains
-    
+    DOMAINS: [
+        
+    ],
 
     // System status
     STATUS: {
