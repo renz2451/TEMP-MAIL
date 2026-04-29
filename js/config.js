@@ -35,15 +35,7 @@ const CONFIG = {
     REQUEST_TIMEOUT: 12000,
 
     // Available domains
-    DOMAINS: [
-        'guerrillamail.com',
-        'guerrillamail.net',
-        'guerrillamail.org',
-        'guerrillamailblock.com',
-        'grr.la',
-        'pokemail.net',
-        'spam4.me'
-    ],
+    DOMAINS: [],
 
     // System status
     STATUS: {
