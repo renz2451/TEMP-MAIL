@@ -35,7 +35,10 @@ const CONFIG = {
     REQUEST_TIMEOUT: 12000,
 
     // Available domains
-    DOMAINS: [],
+    DOMAINS: [
+        'pokemail.net',
+        'spam4.me'
+    ],
 
     // System status
     STATUS: {
