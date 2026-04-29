@@ -36,9 +36,9 @@ const CONFIG = {
 
     // Available domains
     DOMAINS: [
-        'pokemail.net',
-        'spam4.me'
-    ],
+    'pokemail.net',
+    'spam4.me'
+],
 
     // System status
     STATUS: {
