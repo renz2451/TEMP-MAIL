@@ -36,7 +36,13 @@ const CONFIG = {
 
     // Available domains
     DOMAINS: [
-        
+        'guerrillamail.com',
+        'guerrillamail.net',
+        'guerrillamail.org',
+        'guerrillamailblock.com',
+        'grr.la',
+        'pokemail.net',
+        'spam4.me'
     ],
 
     // System status
